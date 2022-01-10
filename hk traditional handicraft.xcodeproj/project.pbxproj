@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6436CD3278C53A100B8D2ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CD2278C53A100B8D2ED /* AppDelegate.swift */; };
+		A6436CD5278C53A100B8D2ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CD4278C53A100B8D2ED /* SceneDelegate.swift */; };
+		A6436CD7278C53A100B8D2ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CD6278C53A100B8D2ED /* ViewController.swift */; };
+		A6436CDA278C53A100B8D2ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6436CD8278C53A100B8D2ED /* Main.storyboard */; };
+		A6436CDD278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6436CDB278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld */; };
+		A6436CDF278C53B000B8D2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6436CDE278C53B000B8D2ED /* Assets.xcassets */; };
+		A6436CE2278C53B000B8D2ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6436CE0278C53B000B8D2ED /* LaunchScreen.storyboard */; };
+		A6436CED278C53B000B8D2ED /* hk_traditional_handicraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CEC278C53B000B8D2ED /* hk_traditional_handicraftTests.swift */; };
+		A6436CF7278C53B000B8D2ED /* hk_traditional_handicraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CF6278C53B000B8D2ED /* hk_traditional_handicraftUITests.swift */; };
+		A6436CF9278C53B000B8D2ED /* hk_traditional_handicraftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CF8278C53B000B8D2ED /* hk_traditional_handicraftUITestsLaunchTests.swift */; };
+		A69A0E35278C5B5D0098BDBB /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = A69A0E34278C5B5D0098BDBB /* map.png */; };
+		A69A0E37278C5D1B0098BDBB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A0E36278C5D1B0098BDBB /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6436CE9278C53B000B8D2ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6436CC7278C53A100B8D2ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6436CCE278C53A100B8D2ED;
+			remoteInfo = "hk traditional handicraft";
+		};
+		A6436CF3278C53B000B8D2ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6436CC7278C53A100B8D2ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6436CCE278C53A100B8D2ED;
+			remoteInfo = "hk traditional handicraft";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6436CCF278C53A100B8D2ED /* hk traditional handicraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hk traditional handicraft.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6436CD2278C53A100B8D2ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6436CD4278C53A100B8D2ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A6436CD6278C53A100B8D2ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6436CD9278C53A100B8D2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6436CDC278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hk_traditional_handicraft.xcdatamodel; sourceTree = "<group>"; };
+		A6436CDE278C53B000B8D2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6436CE1278C53B000B8D2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6436CE3278C53B000B8D2ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6436CE8278C53B000B8D2ED /* hk traditional handicraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hk traditional handicraftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6436CEC278C53B000B8D2ED /* hk_traditional_handicraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hk_traditional_handicraftTests.swift; sourceTree = "<group>"; };
+		A6436CF2278C53B000B8D2ED /* hk traditional handicraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hk traditional handicraftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6436CF6278C53B000B8D2ED /* hk_traditional_handicraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hk_traditional_handicraftUITests.swift; sourceTree = "<group>"; };
+		A6436CF8278C53B000B8D2ED /* hk_traditional_handicraftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hk_traditional_handicraftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A69A0E34278C5B5D0098BDBB /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		A69A0E36278C5D1B0098BDBB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6436CCC278C53A100B8D2ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6436CE5278C53B000B8D2ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6436CEF278C53B000B8D2ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6436CC6278C53A100B8D2ED = {
+			isa = PBXGroup;
+			children = (
+				A6436CD1278C53A100B8D2ED /* hk traditional handicraft */,
+				A6436CEB278C53B000B8D2ED /* hk traditional handicraftTests */,
+				A6436CF5278C53B000B8D2ED /* hk traditional handicraftUITests */,
+				A6436CD0278C53A100B8D2ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6436CD0278C53A100B8D2ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6436CCF278C53A100B8D2ED /* hk traditional handicraft.app */,
+				A6436CE8278C53B000B8D2ED /* hk traditional handicraftTests.xctest */,
+				A6436CF2278C53B000B8D2ED /* hk traditional handicraftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6436CD1278C53A100B8D2ED /* hk traditional handicraft */ = {
+			isa = PBXGroup;
+			children = (
+				A69A0E34278C5B5D0098BDBB /* map.png */,
+				A6436CD2278C53A100B8D2ED /* AppDelegate.swift */,
+				A6436CD4278C53A100B8D2ED /* SceneDelegate.swift */,
+				A6436CD6278C53A100B8D2ED /* ViewController.swift */,
+				A6436CD8278C53A100B8D2ED /* Main.storyboard */,
+				A6436CDE278C53B000B8D2ED /* Assets.xcassets */,
+				A6436CE0278C53B000B8D2ED /* LaunchScreen.storyboard */,
+				A6436CE3278C53B000B8D2ED /* Info.plist */,
+				A6436CDB278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld */,
+				A69A0E36278C5D1B0098BDBB /* MapViewController.swift */,
+			);
+			path = "hk traditional handicraft";
+			sourceTree = "<group>";
+		};
+		A6436CEB278C53B000B8D2ED /* hk traditional handicraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6436CEC278C53B000B8D2ED /* hk_traditional_handicraftTests.swift */,
+			);
+			path = "hk traditional handicraftTests";
+			sourceTree = "<group>";
+		};
+		A6436CF5278C53B000B8D2ED /* hk traditional handicraftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6436CF6278C53B000B8D2ED /* hk_traditional_handicraftUITests.swift */,
+				A6436CF8278C53B000B8D2ED /* hk_traditional_handicraftUITestsLaunchTests.swift */,
+			);
+			path = "hk traditional handicraftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6436CCE278C53A100B8D2ED /* hk traditional handicraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6436CFC278C53B000B8D2ED /* Build configuration list for PBXNativeTarget "hk traditional handicraft" */;
+			buildPhases = (
+				A6436CCB278C53A100B8D2ED /* Sources */,
+				A6436CCC278C53A100B8D2ED /* Frameworks */,
+				A6436CCD278C53A100B8D2ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hk traditional handicraft";
+			productName = "hk traditional handicraft";
+			productReference = A6436CCF278C53A100B8D2ED /* hk traditional handicraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6436CE7278C53B000B8D2ED /* hk traditional handicraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6436CFF278C53B000B8D2ED /* Build configuration list for PBXNativeTarget "hk traditional handicraftTests" */;
+			buildPhases = (
+				A6436CE4278C53B000B8D2ED /* Sources */,
+				A6436CE5278C53B000B8D2ED /* Frameworks */,
+				A6436CE6278C53B000B8D2ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6436CEA278C53B000B8D2ED /* PBXTargetDependency */,
+			);
+			name = "hk traditional handicraftTests";
+			productName = "hk traditional handicraftTests";
+			productReference = A6436CE8278C53B000B8D2ED /* hk traditional handicraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6436CF1278C53B000B8D2ED /* hk traditional handicraftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6436D02278C53B000B8D2ED /* Build configuration list for PBXNativeTarget "hk traditional handicraftUITests" */;
+			buildPhases = (
+				A6436CEE278C53B000B8D2ED /* Sources */,
+				A6436CEF278C53B000B8D2ED /* Frameworks */,
+				A6436CF0278C53B000B8D2ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6436CF4278C53B000B8D2ED /* PBXTargetDependency */,
+			);
+			name = "hk traditional handicraftUITests";
+			productName = "hk traditional handicraftUITests";
+			productReference = A6436CF2278C53B000B8D2ED /* hk traditional handicraftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6436CC7278C53A100B8D2ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A6436CCE278C53A100B8D2ED = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A6436CE7278C53B000B8D2ED = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A6436CCE278C53A100B8D2ED;
+					};
+					A6436CF1278C53B000B8D2ED = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A6436CCE278C53A100B8D2ED;
+					};
+				};
+			};
+			buildConfigurationList = A6436CCA278C53A100B8D2ED /* Build configuration list for PBXProject "hk traditional handicraft" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6436CC6278C53A100B8D2ED;
+			productRefGroup = A6436CD0278C53A100B8D2ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6436CCE278C53A100B8D2ED /* hk traditional handicraft */,
+				A6436CE7278C53B000B8D2ED /* hk traditional handicraftTests */,
+				A6436CF1278C53B000B8D2ED /* hk traditional handicraftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6436CCD278C53A100B8D2ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A0E35278C5B5D0098BDBB /* map.png in Resources */,
+				A6436CE2278C53B000B8D2ED /* LaunchScreen.storyboard in Resources */,
+				A6436CDF278C53B000B8D2ED /* Assets.xcassets in Resources */,
+				A6436CDA278C53A100B8D2ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6436CE6278C53B000B8D2ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6436CF0278C53B000B8D2ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6436CCB278C53A100B8D2ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6436CD7278C53A100B8D2ED /* ViewController.swift in Sources */,
+				A6436CD3278C53A100B8D2ED /* AppDelegate.swift in Sources */,
+				A6436CDD278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld in Sources */,
+				A69A0E37278C5D1B0098BDBB /* MapViewController.swift in Sources */,
+				A6436CD5278C53A100B8D2ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6436CE4278C53B000B8D2ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6436CED278C53B000B8D2ED /* hk_traditional_handicraftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6436CEE278C53B000B8D2ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6436CF7278C53B000B8D2ED /* hk_traditional_handicraftUITests.swift in Sources */,
+				A6436CF9278C53B000B8D2ED /* hk_traditional_handicraftUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6436CEA278C53B000B8D2ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6436CCE278C53A100B8D2ED /* hk traditional handicraft */;
+			targetProxy = A6436CE9278C53B000B8D2ED /* PBXContainerItemProxy */;
+		};
+		A6436CF4278C53B000B8D2ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6436CCE278C53A100B8D2ED /* hk traditional handicraft */;
+			targetProxy = A6436CF3278C53B000B8D2ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6436CD8278C53A100B8D2ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6436CD9278C53A100B8D2ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6436CE0278C53B000B8D2ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6436CE1278C53B000B8D2ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6436CFA278C53B000B8D2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6436CFB278C53B000B8D2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6436CFD278C53B000B8D2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hk traditional handicraft/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The application will use gps to determine location,.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "The application will use gps to determine location,.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The application will use gps to determine location,.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.hk-traditional-handicraft";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6436CFE278C53B000B8D2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hk traditional handicraft/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The application will use gps to determine location,.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "The application will use gps to determine location,.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The application will use gps to determine location,.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.hk-traditional-handicraft";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6436D00278C53B000B8D2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.hk-traditional-handicraftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hk traditional handicraft.app/hk traditional handicraft";
+			};
+			name = Debug;
+		};
+		A6436D01278C53B000B8D2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.hk-traditional-handicraftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hk traditional handicraft.app/hk traditional handicraft";
+			};
+			name = Release;
+		};
+		A6436D03278C53B000B8D2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.hk-traditional-handicraftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hk traditional handicraft";
+			};
+			name = Debug;
+		};
+		A6436D04278C53B000B8D2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.hk-traditional-handicraftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hk traditional handicraft";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6436CCA278C53A100B8D2ED /* Build configuration list for PBXProject "hk traditional handicraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6436CFA278C53B000B8D2ED /* Debug */,
+				A6436CFB278C53B000B8D2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6436CFC278C53B000B8D2ED /* Build configuration list for PBXNativeTarget "hk traditional handicraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6436CFD278C53B000B8D2ED /* Debug */,
+				A6436CFE278C53B000B8D2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6436CFF278C53B000B8D2ED /* Build configuration list for PBXNativeTarget "hk traditional handicraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6436D00278C53B000B8D2ED /* Debug */,
+				A6436D01278C53B000B8D2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6436D02278C53B000B8D2ED /* Build configuration list for PBXNativeTarget "hk traditional handicraftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6436D03278C53B000B8D2ED /* Debug */,
+				A6436D04278C53B000B8D2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A6436CDB278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A6436CDC278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodel */,
+			);
+			currentVersion = A6436CDC278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodel */;
+			path = hk_traditional_handicraft.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A6436CC7278C53A100B8D2ED /* Project object */;
+}
