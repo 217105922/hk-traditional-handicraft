@@ -18,9 +18,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="yAc-xV-m4O" kind="relationship" relationship="viewControllers" id="pMu-y1-Bup"/>
-                        <segue destination="UI6-Lh-D0h" kind="relationship" relationship="viewControllers" id="3F7-2L-P13"/>
                         <segue destination="4nm-V5-vkp" kind="relationship" relationship="viewControllers" id="5bP-on-Ubq"/>
+                        <segue destination="yAc-xV-m4O" kind="relationship" relationship="viewControllers" id="Bzo-gw-dJl"/>
+                        <segue destination="UI6-Lh-D0h" kind="relationship" relationship="viewControllers" id="WbD-lx-5I7"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="paC-iY-CYN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -42,7 +42,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Jb-cd-vHO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1083" y="-8"/>
+            <point key="canvasLocation" x="1130" y="30"/>
         </scene>
         <!--map-->
         <scene sceneID="Ldd-09-baA">
@@ -97,7 +97,7 @@
         <!--View Controller-->
         <scene sceneID="4dp-qY-Ci3">
             <objects>
-                <viewController id="zde-LN-KUo" sceneMemberID="viewController">
+                <viewController id="zde-LN-KUo" customClass="ViewController" customModule="hk_traditional_handicraft" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J1p-XR-fhh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

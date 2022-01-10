@@ -17,8 +17,9 @@
 		A6436CED278C53B000B8D2ED /* hk_traditional_handicraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CEC278C53B000B8D2ED /* hk_traditional_handicraftTests.swift */; };
 		A6436CF7278C53B000B8D2ED /* hk_traditional_handicraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CF6278C53B000B8D2ED /* hk_traditional_handicraftUITests.swift */; };
 		A6436CF9278C53B000B8D2ED /* hk_traditional_handicraftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CF8278C53B000B8D2ED /* hk_traditional_handicraftUITestsLaunchTests.swift */; };
-		A69A0E35278C5B5D0098BDBB /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = A69A0E34278C5B5D0098BDBB /* map.png */; };
 		A69A0E37278C5D1B0098BDBB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A0E36278C5D1B0098BDBB /* MapViewController.swift */; };
+		A69A0E4E278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A0E4C278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift */; };
+		A69A0E4F278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A0E4D278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +54,9 @@
 		A6436CF2278C53B000B8D2ED /* hk traditional handicraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hk traditional handicraftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6436CF6278C53B000B8D2ED /* hk_traditional_handicraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hk_traditional_handicraftUITests.swift; sourceTree = "<group>"; };
 		A6436CF8278C53B000B8D2ED /* hk_traditional_handicraftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hk_traditional_handicraftUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A69A0E34278C5B5D0098BDBB /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		A69A0E36278C5D1B0098BDBB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A69A0E4C278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandicraftsShop+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A69A0E4D278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandicraftsShop+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,8 @@
 		A6436CC6278C53A100B8D2ED = {
 			isa = PBXGroup;
 			children = (
+				A69A0E4C278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift */,
+				A69A0E4D278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift */,
 				A6436CD1278C53A100B8D2ED /* hk traditional handicraft */,
 				A6436CEB278C53B000B8D2ED /* hk traditional handicraftTests */,
 				A6436CF5278C53B000B8D2ED /* hk traditional handicraftUITests */,
@@ -105,7 +109,6 @@
 		A6436CD1278C53A100B8D2ED /* hk traditional handicraft */ = {
 			isa = PBXGroup;
 			children = (
-				A69A0E34278C5B5D0098BDBB /* map.png */,
 				A6436CD2278C53A100B8D2ED /* AppDelegate.swift */,
 				A6436CD4278C53A100B8D2ED /* SceneDelegate.swift */,
 				A6436CD6278C53A100B8D2ED /* ViewController.swift */,
@@ -240,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A69A0E35278C5B5D0098BDBB /* map.png in Resources */,
 				A6436CE2278C53B000B8D2ED /* LaunchScreen.storyboard in Resources */,
 				A6436CDF278C53B000B8D2ED /* Assets.xcassets in Resources */,
 				A6436CDA278C53A100B8D2ED /* Main.storyboard in Resources */,
@@ -272,7 +274,9 @@
 				A6436CD3278C53A100B8D2ED /* AppDelegate.swift in Sources */,
 				A6436CDD278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld in Sources */,
 				A69A0E37278C5D1B0098BDBB /* MapViewController.swift in Sources */,
+				A69A0E4F278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift in Sources */,
 				A6436CD5278C53A100B8D2ED /* SceneDelegate.swift in Sources */,
+				A69A0E4E278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
