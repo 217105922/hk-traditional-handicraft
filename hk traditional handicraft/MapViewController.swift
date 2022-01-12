@@ -18,7 +18,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if CLLocationManager.locationServicesEnabled() {
+        if CLLocationManager.locationServicesEnabled() { //Lab exercise
                self.locationManager = CLLocationManager();
                self.locationManager?.delegate = self;
                if CLLocationManager.authorizationStatus() != .authorizedAlways {
@@ -34,16 +34,16 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     
         //for in-app authorization event
         func locationManager(_ manager: CLLocationManager,
-                             didChangeAuthorization status: CLAuthorizationStatus) {
+                             didChangeAuthorization status: CLAuthorizationStatus) { //Labexercise
             if status == .authorizedAlways {
                 self.setupAndStartLocationManager();
             }
         }
         
         func setupAndStartLocationManager(){
-            self.locationManager?.desiredAccuracy = kCLLocationAccuracyBest;
-            self.locationManager?.distanceFilter = kCLDistanceFilterNone;
-            self.locationManager?.startUpdatingLocation();
+            self.locationManager?.desiredAccuracy = kCLLocationAccuracyBest;//Lab exercise
+            self.locationManager?.distanceFilter = kCLDistanceFilterNone;//Lab exercise
+            self.locationManager?.startUpdatingLocation();//Lab exercise
             checkNearby()
         }
         

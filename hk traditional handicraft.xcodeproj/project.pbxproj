@@ -20,6 +20,9 @@
 		A69A0E37278C5D1B0098BDBB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A0E36278C5D1B0098BDBB /* MapViewController.swift */; };
 		A69A0E4E278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A0E4C278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift */; };
 		A69A0E4F278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A0E4D278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift */; };
+		A6D16291278F2AFD003D6526 /* ShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D16290278F2AFD003D6526 /* ShopTableViewController.swift */; };
+		A6D16294278F35AE003D6526 /* shopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D16292278F35AE003D6526 /* shopCell.swift */; };
+		A6D16295278F35AE003D6526 /* shopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D16293278F35AE003D6526 /* shopCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		A69A0E36278C5D1B0098BDBB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A69A0E4C278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandicraftsShop+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A69A0E4D278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandicraftsShop+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A6D16290278F2AFD003D6526 /* ShopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewController.swift; sourceTree = "<group>"; };
+		A6D16292278F35AE003D6526 /* shopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopCell.swift; sourceTree = "<group>"; };
+		A6D16293278F35AE003D6526 /* shopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shopCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,9 @@
 				A6436CE3278C53B000B8D2ED /* Info.plist */,
 				A6436CDB278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld */,
 				A69A0E36278C5D1B0098BDBB /* MapViewController.swift */,
+				A6D16290278F2AFD003D6526 /* ShopTableViewController.swift */,
+				A6D16292278F35AE003D6526 /* shopCell.swift */,
+				A6D16293278F35AE003D6526 /* shopCell.xib */,
 			);
 			path = "hk traditional handicraft";
 			sourceTree = "<group>";
@@ -246,6 +255,7 @@
 				A6436CE2278C53B000B8D2ED /* LaunchScreen.storyboard in Resources */,
 				A6436CDF278C53B000B8D2ED /* Assets.xcassets in Resources */,
 				A6436CDA278C53A100B8D2ED /* Main.storyboard in Resources */,
+				A6D16295278F35AE003D6526 /* shopCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6D16294278F35AE003D6526 /* shopCell.swift in Sources */,
 				A6436CD7278C53A100B8D2ED /* ViewController.swift in Sources */,
+				A6D16291278F2AFD003D6526 /* ShopTableViewController.swift in Sources */,
 				A6436CD3278C53A100B8D2ED /* AppDelegate.swift in Sources */,
 				A6436CDD278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld in Sources */,
 				A69A0E37278C5D1B0098BDBB /* MapViewController.swift in Sources */,
