@@ -41,7 +41,7 @@ class ShopTableViewController: UITableViewController,NSFetchedResultsControllerD
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         
-        
+        print(fetchedResultController.fetchedObjects?.count)
         return fetchedResultController.fetchedObjects?.count ?? 0 
         
             
@@ -57,7 +57,9 @@ class ShopTableViewController: UITableViewController,NSFetchedResultsControllerD
         let shop = fetchedResultController.fetchedObjects![indexPath.section] as! HandicraftsShop
         
        // cell.textLabel?.text = String(shop.name!)
-        cell.textLabel?.text =  shop.name
+        cell.nameLabel?.text =  shop.name
+        //cell.thrumbnail.image = UIImage()
+        
         // Configure the cell...
         
 
@@ -113,31 +115,27 @@ class ShopTableViewController: UITableViewController,NSFetchedResultsControllerD
     func openDatabase(){
             moc = appDelegate.persistentContainer.viewContext
             let entity = NSEntityDescription.entity(forEntityName: "HandicraftsShop", in: moc)
-            let newData = NSManagedObject(entity: entity!, insertInto: moc)
             cleanData()
-            saveData(newDBObject:newData)
-
+        print("Storing Data..")
+        for index in  1...5{
+            let shop = NSManagedObject(entity: entity!, insertInto: moc)
+            
+            print(index)
+            shop.setValue(index, forKey: "id")
+            shop.setValue("香港傳統奶茶", forKey: "name")
+            shop.setValue(22.302711, forKey: "lati")
+            shop.setValue(114.177216, forKey: "long")
+        }
         
-
-        
-    }
-    
-    func saveData(newDBObject : NSManagedObject){
-    
-        newDBObject.setValue(1, forKey: "id")
-        newDBObject.setValue("test", forKey: "name")
-        newDBObject.setValue(22.302711, forKey: "lati")
-        newDBObject.setValue(114.177216, forKey: "long")
-        
-        
-               print("Storing Data..")
-               do {
-                   try moc.save()
-               } catch {
-                   print("Storing data Failed")
-               }
+       
+        do {
+            try moc.save()
+        } catch {
+            print("Storing data Failed")
+        }
         fetchData()
     }
+
     
     func cleanData()
     {

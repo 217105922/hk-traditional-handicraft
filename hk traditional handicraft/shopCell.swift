@@ -8,6 +8,9 @@
 import UIKit
 
 class shopCell: UITableViewCell {
+    
+    @IBOutlet var nameLabel : UILabel!
+    @IBOutlet var thrumbnail : UIImageView!
 
     override func awakeFromNib() {
         super.awakeFromNib()
