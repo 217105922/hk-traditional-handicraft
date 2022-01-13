@@ -25,6 +25,7 @@
 		A6D16295278F35AE003D6526 /* shopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D16293278F35AE003D6526 /* shopCell.xib */; };
 		A6D1629927903ACA003D6526 /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6D1629827903ACA003D6526 /* example.jpg */; };
 		A6D1629B27903FE0003D6526 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1629A27903FE0003D6526 /* DetailController.swift */; };
+		A6D1629D279080A1003D6526 /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1629C279080A1003D6526 /* BioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		A6D16293278F35AE003D6526 /* shopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shopCell.xib; sourceTree = "<group>"; };
 		A6D1629827903ACA003D6526 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
 		A6D1629A27903FE0003D6526 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		A6D1629C279080A1003D6526 /* BioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				A6D16292278F35AE003D6526 /* shopCell.swift */,
 				A6D16293278F35AE003D6526 /* shopCell.xib */,
 				A6D1629A27903FE0003D6526 /* DetailController.swift */,
+				A6D1629C279080A1003D6526 /* BioViewController.swift */,
 			);
 			path = "hk traditional handicraft";
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				A6D16294278F35AE003D6526 /* shopCell.swift in Sources */,
 				A6436CD7278C53A100B8D2ED /* ViewController.swift in Sources */,
+				A6D1629D279080A1003D6526 /* BioViewController.swift in Sources */,
 				A6D16291278F2AFD003D6526 /* ShopTableViewController.swift in Sources */,
 				A6436CD3278C53A100B8D2ED /* AppDelegate.swift in Sources */,
 				A6436CDD278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld in Sources */,
@@ -477,6 +481,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hk traditional handicraft/Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "use face id";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The application will use gps to determine location,.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "The application will use gps to determine location,.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The application will use gps to determine location,.";
@@ -507,6 +512,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hk traditional handicraft/Info.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "use face id";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The application will use gps to determine location,.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "The application will use gps to determine location,.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The application will use gps to determine location,.";

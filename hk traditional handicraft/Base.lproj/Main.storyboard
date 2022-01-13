@@ -78,13 +78,24 @@
             </objects>
             <point key="canvasLocation" x="319" y="315"/>
         </scene>
-        <!--View Controller-->
+        <!--Bio View Controller-->
         <scene sceneID="6aY-v1-R5t">
             <objects>
-                <viewController id="NRM-Bl-J28" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="M6s-TM-1W5">
+                <viewController id="NRM-Bl-J28" customClass="BioViewController" customModule="hk_traditional_handicraft" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M6s-TM-1W5" customClass="Cha">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOQ-f8-F6T">
+                                <rect key="frame" x="181" y="433" width="54" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Auth"/>
+                                <connections>
+                                    <action selector="authenticateUser:" destination="NRM-Bl-J28" eventType="touchDown" id="fJr-eF-sPS"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Aoi-Ad-t9a"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
@@ -215,7 +226,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TcD-2s-jP4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2937.68115942029" y="28.794642857142854"/>
+            <point key="canvasLocation" x="2643" y="29"/>
         </scene>
     </scenes>
     <resources>

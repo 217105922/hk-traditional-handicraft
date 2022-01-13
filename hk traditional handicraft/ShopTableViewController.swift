@@ -8,6 +8,7 @@
 import UIKit
 import CoreData
 
+
 class ShopTableViewController: UITableViewController,NSFetchedResultsControllerDelegate {
     
     
