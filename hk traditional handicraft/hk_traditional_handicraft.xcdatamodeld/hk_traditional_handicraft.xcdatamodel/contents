@@ -6,8 +6,9 @@
         <attribute name="lati" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="long" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="HandicraftsShop" positionX="-63" positionY="-18" width="128" height="104"/>
+        <element name="HandicraftsShop" positionX="-63" positionY="-18" width="128" height="119"/>
     </elements>
 </model>

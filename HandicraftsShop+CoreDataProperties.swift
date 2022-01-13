@@ -17,10 +17,11 @@ extension HandicraftsShop {
     }
 
     @NSManaged public var id: Int16
+    @NSManaged public var image: Data?
     @NSManaged public var lati: Float
     @NSManaged public var long: Float
     @NSManaged public var name: String?
-    @NSManaged public var image: Data?
+    @NSManaged public var text: String?
 
 }
 
