@@ -17,6 +17,13 @@
 		A6436CED278C53B000B8D2ED /* hk_traditional_handicraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CEC278C53B000B8D2ED /* hk_traditional_handicraftTests.swift */; };
 		A6436CF7278C53B000B8D2ED /* hk_traditional_handicraftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CF6278C53B000B8D2ED /* hk_traditional_handicraftUITests.swift */; };
 		A6436CF9278C53B000B8D2ED /* hk_traditional_handicraftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6436CF8278C53B000B8D2ED /* hk_traditional_handicraftUITestsLaunchTests.swift */; };
+		A6779EFE279166D5009F28BC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6779EFD279166D5009F28BC /* ChatViewController.swift */; };
+		A6779F002791674B009F28BC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6779EFF2791674B009F28BC /* LoginViewController.swift */; };
+		A6779F0227916769009F28BC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6779F0127916769009F28BC /* RegisterViewController.swift */; };
+		A6779F04279167A9009F28BC /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6779F03279167A9009F28BC /* PhotoViewerViewController.swift */; };
+		A6779F06279167BA009F28BC /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6779F05279167BA009F28BC /* VideoPlayerViewController.swift */; };
+		A6779F08279167D5009F28BC /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6779F07279167D5009F28BC /* NewConversationViewController.swift */; };
+		A6779F0A279167F3009F28BC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6779F09279167F3009F28BC /* ProfileViewController.swift */; };
 		A69A0E37278C5D1B0098BDBB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A0E36278C5D1B0098BDBB /* MapViewController.swift */; };
 		A69A0E4E278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A0E4C278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift */; };
 		A69A0E4F278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A0E4D278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift */; };
@@ -63,6 +70,13 @@
 		A6436CF2278C53B000B8D2ED /* hk traditional handicraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hk traditional handicraftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6436CF6278C53B000B8D2ED /* hk_traditional_handicraftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hk_traditional_handicraftUITests.swift; sourceTree = "<group>"; };
 		A6436CF8278C53B000B8D2ED /* hk_traditional_handicraftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hk_traditional_handicraftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6779EFD279166D5009F28BC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A6779EFF2791674B009F28BC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A6779F0127916769009F28BC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A6779F03279167A9009F28BC /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		A6779F05279167BA009F28BC /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		A6779F07279167D5009F28BC /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		A6779F09279167F3009F28BC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A69A0E36278C5D1B0098BDBB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A69A0E4C278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandicraftsShop+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A69A0E4D278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HandicraftsShop+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -144,6 +158,13 @@
 				A6D1629A27903FE0003D6526 /* DetailController.swift */,
 				A6D1629C279080A1003D6526 /* BioViewController.swift */,
 				A6D1629E2790A23D003D6526 /* AddShopViewController.swift */,
+				A6779EFD279166D5009F28BC /* ChatViewController.swift */,
+				A6779EFF2791674B009F28BC /* LoginViewController.swift */,
+				A6779F0127916769009F28BC /* RegisterViewController.swift */,
+				A6779F03279167A9009F28BC /* PhotoViewerViewController.swift */,
+				A6779F05279167BA009F28BC /* VideoPlayerViewController.swift */,
+				A6779F07279167D5009F28BC /* NewConversationViewController.swift */,
+				A6779F09279167F3009F28BC /* ProfileViewController.swift */,
 			);
 			path = "hk traditional handicraft";
 			sourceTree = "<group>";
@@ -305,15 +326,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6779F002791674B009F28BC /* LoginViewController.swift in Sources */,
+				A6779F06279167BA009F28BC /* VideoPlayerViewController.swift in Sources */,
 				A6D16294278F35AE003D6526 /* shopCell.swift in Sources */,
 				A6436CD7278C53A100B8D2ED /* ViewController.swift in Sources */,
 				A6D1629D279080A1003D6526 /* BioViewController.swift in Sources */,
 				A6D16291278F2AFD003D6526 /* ShopTableViewController.swift in Sources */,
+				A6779F08279167D5009F28BC /* NewConversationViewController.swift in Sources */,
+				A6779F04279167A9009F28BC /* PhotoViewerViewController.swift in Sources */,
 				A6436CD3278C53A100B8D2ED /* AppDelegate.swift in Sources */,
+				A6779F0A279167F3009F28BC /* ProfileViewController.swift in Sources */,
+				A6779F0227916769009F28BC /* RegisterViewController.swift in Sources */,
 				A6436CDD278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld in Sources */,
 				A69A0E37278C5D1B0098BDBB /* MapViewController.swift in Sources */,
 				A69A0E4F278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift in Sources */,
 				A6D1629F2790A23D003D6526 /* AddShopViewController.swift in Sources */,
+				A6779EFE279166D5009F28BC /* ChatViewController.swift in Sources */,
 				A6436CD5278C53A100B8D2ED /* SceneDelegate.swift in Sources */,
 				A6D1629B27903FE0003D6526 /* DetailController.swift in Sources */,
 				A69A0E4E278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift in Sources */,
