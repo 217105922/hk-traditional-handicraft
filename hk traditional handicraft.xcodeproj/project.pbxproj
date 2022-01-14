@@ -26,6 +26,9 @@
 		A6D1629927903ACA003D6526 /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6D1629827903ACA003D6526 /* example.jpg */; };
 		A6D1629B27903FE0003D6526 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1629A27903FE0003D6526 /* DetailController.swift */; };
 		A6D1629D279080A1003D6526 /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1629C279080A1003D6526 /* BioViewController.swift */; };
+		A6D1629F2790A23D003D6526 /* AddShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1629E2790A23D003D6526 /* AddShopViewController.swift */; };
+		A6D162A127912A58003D6526 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6D162A027912A57003D6526 /* GoogleService-Info.plist */; };
+		A6D162A427912F51003D6526 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = A6D162A327912F51003D6526 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,8 @@
 		A6D1629827903ACA003D6526 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
 		A6D1629A27903FE0003D6526 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		A6D1629C279080A1003D6526 /* BioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
+		A6D1629E2790A23D003D6526 /* AddShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShopViewController.swift; sourceTree = "<group>"; };
+		A6D162A027912A57003D6526 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6D162A427912F51003D6526 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +127,7 @@
 		A6436CD1278C53A100B8D2ED /* hk traditional handicraft */ = {
 			isa = PBXGroup;
 			children = (
+				A6D162A027912A57003D6526 /* GoogleService-Info.plist */,
 				A6D1629827903ACA003D6526 /* example.jpg */,
 				A6436CD2278C53A100B8D2ED /* AppDelegate.swift */,
 				A6436CD4278C53A100B8D2ED /* SceneDelegate.swift */,
@@ -136,6 +143,7 @@
 				A6D16293278F35AE003D6526 /* shopCell.xib */,
 				A6D1629A27903FE0003D6526 /* DetailController.swift */,
 				A6D1629C279080A1003D6526 /* BioViewController.swift */,
+				A6D1629E2790A23D003D6526 /* AddShopViewController.swift */,
 			);
 			path = "hk traditional handicraft";
 			sourceTree = "<group>";
@@ -173,6 +181,9 @@
 			dependencies = (
 			);
 			name = "hk traditional handicraft";
+			packageProductDependencies = (
+				A6D162A327912F51003D6526 /* FirebaseAnalyticsWithoutAdIdSupport */,
+			);
 			productName = "hk traditional handicraft";
 			productReference = A6436CCF278C53A100B8D2ED /* hk traditional handicraft.app */;
 			productType = "com.apple.product-type.application";
@@ -245,6 +256,9 @@
 				Base,
 			);
 			mainGroup = A6436CC6278C53A100B8D2ED;
+			packageReferences = (
+				A6D162A227912F51003D6526 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A6436CD0278C53A100B8D2ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,6 +280,7 @@
 				A6436CDF278C53B000B8D2ED /* Assets.xcassets in Resources */,
 				A6436CDA278C53A100B8D2ED /* Main.storyboard in Resources */,
 				A6D16295278F35AE003D6526 /* shopCell.xib in Resources */,
+				A6D162A127912A58003D6526 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +313,7 @@
 				A6436CDD278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld in Sources */,
 				A69A0E37278C5D1B0098BDBB /* MapViewController.swift in Sources */,
 				A69A0E4F278C843F0098BDBB /* HandicraftsShop+CoreDataProperties.swift in Sources */,
+				A6D1629F2790A23D003D6526 /* AddShopViewController.swift in Sources */,
 				A6436CD5278C53A100B8D2ED /* SceneDelegate.swift in Sources */,
 				A6D1629B27903FE0003D6526 /* DetailController.swift in Sources */,
 				A69A0E4E278C843F0098BDBB /* HandicraftsShop+CoreDataClass.swift in Sources */,
@@ -481,6 +497,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hk traditional handicraft/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = " take image";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "use face id";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The application will use gps to determine location,.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "The application will use gps to determine location,.";
@@ -512,6 +529,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hk traditional handicraft/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = " take image";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "use face id";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "The application will use gps to determine location,.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "The application will use gps to determine location,.";
@@ -666,6 +684,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A6D162A227912F51003D6526 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6D162A327912F51003D6526 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6D162A227912F51003D6526 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A6436CDB278C53A200B8D2ED /* hk_traditional_handicraft.xcdatamodeld */ = {

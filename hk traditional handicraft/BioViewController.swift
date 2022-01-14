@@ -15,7 +15,7 @@ class BioViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    @IBAction func authenticateUser(_ sender: UIButton){
+    @IBAction func authenticateUser(_ sender: UIButton){ 
         let context = LAContext()
         var error : NSError?
         if context.canEvaluatePolicy(LAPolicy.deviceOwnerAuthenticationWithBiometrics, error: &error){

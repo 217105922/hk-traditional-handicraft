@@ -11,6 +11,11 @@ import CoreData
 
 class ShopTableViewController: UITableViewController,NSFetchedResultsControllerDelegate {
     
+    @IBAction func addnewItem(_ sender : Any){
+        self.performSegue(withIdentifier: "newItemSegue", sender: self)
+    }
+    
+    
     
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     var moc:NSManagedObjectContext!
@@ -57,11 +62,11 @@ class ShopTableViewController: UITableViewController,NSFetchedResultsControllerD
         let CellIdentifier = "shopCell"
         
         let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifier, for: indexPath as IndexPath) as! shopCell
-        let shop = fetchedResultController.fetchedObjects![indexPath.section] as! HandicraftsShop
+        let shop = fetchedResultController.fetchedObjects![indexPath.row] as! HandicraftsShop
         
        // cell.textLabel?.text = String(shop.name!)
         cell.nameLabel?.text =  shop.name
-        let url =  URL.init(fileURLWithPath: "/Users/peterlam/Desktop/xcode/Biometric /traditional handicraft/hk traditional handicraft/hk traditional handicraft/example.jpg")
+        let url =  URL.init(fileURLWithPath: "/Users/peterlam/Desktop/traditional handicraft/hk traditional handicraft/hk traditional handicraft/example.jpg")
         let ImageData:NSData = NSData(contentsOf: url)!
         cell.thrumbnail.image = UIImage(data: ImageData as Data)
         // Configure the cell...
@@ -119,7 +124,7 @@ class ShopTableViewController: UITableViewController,NSFetchedResultsControllerD
                 let shop = fetchedResultController.fetchedObjects![row] as! HandicraftsShop
                 destination.shopID = shop.id
                 destination.shopName = shop.name
-                let url =  URL.init(fileURLWithPath: "/Users/peterlam/Desktop/xcode/Biometric /traditional handicraft/hk traditional handicraft/hk traditional handicraft/example.jpg")
+                let url =  URL.init(fileURLWithPath: "/Users/peterlam/Desktop/traditional handicraft/hk traditional handicraft/hk traditional handicraft/example.jpg")
                 let ImageData:NSData = NSData(contentsOf: url)!
                 destination.Image = UIImage(data: ImageData as Data)
                 destination.textD = shop.text
@@ -131,25 +136,31 @@ class ShopTableViewController: UITableViewController,NSFetchedResultsControllerD
     func openDatabase(){
             moc = appDelegate.persistentContainer.viewContext
             let entity = NSEntityDescription.entity(forEntityName: "HandicraftsShop", in: moc)
-            cleanData()
+        //cleanData()
         print("Storing Data..")
-        for index in  1...5{
-            let shop = NSManagedObject(entity: entity!, insertInto: moc)
-            print(index)
-            shop.setValue(index, forKey: "id")
-            shop.setValue("香港傳統奶茶", forKey: "name")
-            shop.setValue((22.302711), forKey: "lati")
-            shop.setValue((114.177216), forKey: "long")
-            shop.setValue("港式奶茶俗稱「絲襪奶茶」，由殖民地時代的英式奶茶，經過百年的逐漸演變，成為今天香港普羅大眾的飲品。港式奶茶由調配茶葉、煲茶、焗茶、撞茶、撞奶等步驟炮製而成，深受香港人歡迎。港式奶茶製作技藝反映了中西飲食文化在香港的交融與發展，也反映出本地市民的生活和飲食的面貌。", forKey: "text")
-        }
-        
-       
-        do {
-            try moc.save()
-        } catch {
-            print("Storing data Failed")
-        }
         fetchData()
+        if (fetchedResultController.fetchedObjects?.count)! <= 1 {
+            for index in  1...5{
+                let shop = NSManagedObject(entity: entity!, insertInto: moc)
+                print(index)
+                shop.setValue(index, forKey: "id")
+                shop.setValue("香港傳統奶茶", forKey: "name")
+                shop.setValue((22.302711), forKey: "lati")
+                shop.setValue((114.177216), forKey: "long")
+                shop.setValue("港式奶茶俗稱「絲襪奶茶」，由殖民地時代的英式奶茶，經過百年的逐漸演變，成為今天香港普羅大眾的飲品。港式奶茶由調配茶葉、煲茶、焗茶、撞茶、撞奶等步驟炮製而成，深受香港人歡迎。港式奶茶製作技藝反映了中西飲食文化在香港的交融與發展，也反映出本地市民的生活和飲食的面貌。", forKey: "text")
+            }
+            do {
+                try moc.save()
+            } catch {
+                print("Storing data Failed")
+            }
+                
+            }else{
+                
+                print("loaded already")
+            }
+       
+            fetchData()
     }
 
     
@@ -194,5 +205,7 @@ class ShopTableViewController: UITableViewController,NSFetchedResultsControllerD
     }
     
 
+    
+    
     
 }
